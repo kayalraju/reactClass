@@ -7,6 +7,14 @@ import Hoc from "./components/highordercomponent/Hoc";
 import StudentProps from "./components/props/StudentProps";
 import Insideconst from "./components/states/Insideconst";
 import Userstudent from "./components/states/Userstudent";
+import { Navbar } from "./Routerss/Layouts.jsx/Navbar";
+import {BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import { Home } from "./Routerss/Home";
+import About from "./Routerss/About";
+import { Footer } from "./Routerss/Layouts.jsx/Footer";
+import { Service } from "./Routerss/Service";
+import { NotFound } from "./Routerss/NotFound";
+import { Menu } from "./Routerss/menu/Menu";
 
 function App() {
   return (
@@ -19,8 +27,21 @@ function App() {
       {/* <Hoc/> */}
       {/* <Userstudent /> */}
       {/* <Insideconst city="kolkata"/> */}
-      <Userform/>
+      {/* <Userform/> */}
+      
+      <Router>
+      <Navbar/>
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/about" element={<About/>}/>
+          <Route exact path="/service" element={<Service/>}/>
+          <Route path="/menu" element={<Menu/>}/>
+          <Route path="*" element={<NotFound/>}/>
+          
 
+        </Routes>
+        <Footer/>
+      </Router>
 
 
     </div>
