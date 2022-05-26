@@ -15,6 +15,7 @@ import { Footer } from "./Routerss/Layouts.jsx/Footer";
 import { Service } from "./Routerss/Service";
 import { NotFound } from "./Routerss/NotFound";
 import { Menu } from "./Routerss/menu/Menu";
+import ListKey from "./components/listKey/ListKey";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
       {/* <Insideconst city="kolkata"/> */}
       {/* <Userform/> */}
       
-      <Router>
+      {/* <Router>
       <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
@@ -41,8 +42,9 @@ function App() {
 
         </Routes>
         <Footer/>
-      </Router>
+      </Router> */}
 
+        <ListKey/>
 
     </div>
   );
