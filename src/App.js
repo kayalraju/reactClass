@@ -16,7 +16,8 @@ import { Service } from "./Routerss/Service";
 import { NotFound } from "./Routerss/NotFound";
 import { Menu } from "./Routerss/menu/Menu";
 import ListKey from "./components/listKey/ListKey";
-import Memo from "./Memoreact/Memo";
+import { Form } from "./components/mui/Form";
+// import Memo from "./Memoreact/Memo";
 
 function App() {
   return (
@@ -46,8 +47,8 @@ function App() {
       </Router> */}
 
         {/* <ListKey/> */}
-        <Memo/>
-
+        {/* <Memo/> */}
+      <Form/>
     </div>
   );
 }
