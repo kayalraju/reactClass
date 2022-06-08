@@ -17,6 +17,11 @@ import { NotFound } from "./Routerss/NotFound";
 import { Menu } from "./Routerss/menu/Menu";
 import ListKey from "./components/listKey/ListKey";
 import { Form } from "./components/mui/Form";
+import { Counter } from "./components/useState/Counter";
+import { UseStateex1 } from "./components/useState/UseStateex1";
+import { ToggleData } from "./components/useState/ToggleData";
+import { Example2 } from "./components/useState/Example2";
+import Timer from "./components/useEffect/Timer";
 // import Memo from "./Memoreact/Memo";
 
 function App() {
@@ -48,7 +53,12 @@ function App() {
 
         {/* <ListKey/> */}
         {/* <Memo/> */}
-      <Form/>
+      {/* <Form/> */}
+      {/* <Counter/> */}
+      {/* <UseStateex1/> */}
+      {/* <ToggleData/> */}
+      {/* <Example2/> */}
+      <Timer/>
     </div>
   );
 }
