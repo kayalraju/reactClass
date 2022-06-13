@@ -22,6 +22,7 @@ import { UseStateex1 } from "./components/useState/UseStateex1";
 import { ToggleData } from "./components/useState/ToggleData";
 import { Example2 } from "./components/useState/Example2";
 import Timer from "./components/useEffect/Timer";
+import FetchapiData from "./components/useEffect/FetchapiData";
 // import Memo from "./Memoreact/Memo";
 
 function App() {
@@ -58,7 +59,8 @@ function App() {
       {/* <UseStateex1/> */}
       {/* <ToggleData/> */}
       {/* <Example2/> */}
-      <Timer/>
+      {/* <Timer/> */}
+      <FetchapiData/>
     </div>
   );
 }
