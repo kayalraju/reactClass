@@ -23,6 +23,7 @@ import { ToggleData } from "./components/useState/ToggleData";
 import { Example2 } from "./components/useState/Example2";
 import Timer from "./components/useEffect/Timer";
 import FetchapiData from "./components/useEffect/FetchapiData";
+import ParamsRoute from "./paramRoutes/ParamsRoute";
 // import Memo from "./Memoreact/Memo";
 
 function App() {
@@ -60,7 +61,8 @@ function App() {
       {/* <ToggleData/> */}
       {/* <Example2/> */}
       {/* <Timer/> */}
-      <FetchapiData/>
+      {/* <FetchapiData/> */}
+      <ParamsRoute/>
     </div>
   );
 }
