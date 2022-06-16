@@ -24,6 +24,8 @@ import { Example2 } from "./components/useState/Example2";
 import Timer from "./components/useEffect/Timer";
 import FetchapiData from "./components/useEffect/FetchapiData";
 import ParamsRoute from "./paramRoutes/ParamsRoute";
+import ReducerCount from "./ReducerHooks/ReducerCount";
+import ReducerApiCall from "./ReducerHooks/ReducerApiCall";
 // import Memo from "./Memoreact/Memo";
 
 function App() {
@@ -47,8 +49,6 @@ function App() {
           <Route exact path="/service" element={<Service/>}/>
           <Route path="/menu" element={<Menu/>}/>
           <Route path="*" element={<NotFound/>}/>
-          
-
         </Routes>
         <Footer/>
       </Router> */}
@@ -62,7 +62,10 @@ function App() {
       {/* <Example2/> */}
       {/* <Timer/> */}
       {/* <FetchapiData/> */}
-      <ParamsRoute/>
+      {/* <ParamsRoute/> */}
+      {/* <ReducerCount/> */}
+      <ReducerApiCall/>
+
     </div>
   );
 }

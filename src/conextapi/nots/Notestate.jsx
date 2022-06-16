@@ -2,7 +2,6 @@ import React from 'react'
 import Notecontex from './Notecontex'
 
 const Notestate = ({children}) => {
-
   const state={
     name:"Aditi gupta",
     email:"aditi@gmail.com",
